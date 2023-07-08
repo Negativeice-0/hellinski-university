@@ -48,14 +48,16 @@
 //
 //export default App
 
+import Header from './Header'
+
 const App = () => {
   // const-definitions
+const salute = 'bonjour'
 
   return (
     <div>
-      <Header course={course} />
-      <Content exercises={exercises} />
-      <Total total_expected={total_expected} />
+      <Header />
+      <h3>{salute}</h3>
     </div>
   )
 }
